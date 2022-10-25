@@ -10,6 +10,7 @@ body {
     font-weight: 400;
     font-size: 1.125rem;
     line-height: 1.75rem;
+    box-sizing: border-box;
 }
 
 
@@ -193,6 +194,104 @@ body {
     max-width: 31.5rem;
 }
 
+
+/* Why US */
+
+.why-us__container {
+    display: grid;
+    grid-template-columns: 25% 25% 50%;
+    max-width: 73.125rem;
+    margin: 0rem 8.438rem 9.375rem 8.438rem;
+    row-gap: 2.188rem;
+    column-gap: 4.375rem;
+}
+
+.why-is__container_info{
+    width: 15.063rem;
+    padding: 0rem;
+    margin: o auto;
+}
+
+.why-is__container_info_large{
+    max-width: 28.813rem;
+    margin: 2.938rem 0rem 0rem 0rem;
+    padding-bottom: 3rem;
+    grid-column: 3/3;
+    grid-row: 1/3;
+
+
+}
+.why-us__container_large_headline{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.125rem;
+    line-height: 3.75rem;
+    color: #1C0A0A;
+    padding-bottom: 1rem;
+}
+.why-us__container_headline_large_signature{
+    max-width: 11rem;
+    font-family: 'Homemade Apple';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 4.313rem;
+    color: #FF9F66;
+    padding-bottom: 0.25rem;
+}
+.why-is__container_large_name{
+    display: flex;
+    align-items: baseline;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    color: #1C0A0A;
+    max-width: 13.063rem;
+    align-self: flex-start;
+    flex-wrap: nowrap;
+}
+.why-us__container_headline {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.125rem;
+    line-height: 3.75rem;
+    color: #1C0A0A;
+    padding-bottom: 1rem;
+
+}
+.why-us__container_headline_bold {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    color: #1C0A0A;
+    padding-bottom: 0.625rem;
+}
+.why-is__container_body {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.625rem;
+    color: #584F49;
+}
+.why-is__container_large_founder {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 0.875rem;
+line-height: 1.5rem;
+color: #584F49;
+}
+
+.ellips_green_xs {
+    position:absolute;
+    right: 210px;
+    max-width: 2.125rem;
+    max-height: 1.063rem;
+    margin-bottom: 80px;
+}
 /*PopUp*/
 /*
 .popup {
