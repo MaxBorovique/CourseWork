@@ -21,7 +21,7 @@
 
     <link rel="stylesheet" href="/assets/styles/reset.css">
     <link rel="stylesheet" href="/assets/styles/style.css">
-    <link rel="stylesheet" href="./slick/slick-theme.css">
+    <link rel="stylesheet" type="text/css" href="/assets/slick/slick.css"/>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -30,7 +30,6 @@
     <title>Yola</title>
 </head>
 <body>
-    <!-- Хедер -->
     <header class="header">
         <div class="header__menu">
             <div class="header__menu__logo">
@@ -49,71 +48,115 @@
                 <button type="button" class="header__signup">Sign up</button>
             </div>
         </div>
-        <div class="circle_big"></div>
+        <div class="circle_box"><div class="circle_big"></div></div>
+
     </header>
-<!-- Главный экран -->
+
     <main>
-        <section class="main_screen">
-            <div class="main_screen__text">
-                <div class="main_screen__text__headline"><h1>Yoga to Release Stress</h1></div>
-                <p class="main_screen__text__body">
-                    Yoga is a way of life, rather than a chore. Counteract 
-                    the stresses of modern life by becoming more mindful 
-                    and compassionate.
-                </p>
-                <div class="main_screen__text__button">
-                    <button class="main_screen__text__button_main" type="button">Get Started</button>
-                    <button class="main_screen__text__button_secondary" type="button">Learn More</button>
+        <!-- Главный экран -->
+        <section class="main-screen">
+            <div class="main-screen__container">
+                <div class="main-screen__container__text">
+                    <div class="main-screen__container__text__headline"><h1>Yoga to Release Stress</h1></div>
+                    <p class="main-screen__container__text__body">
+                        Yoga is a way of life, rather than a chore. Counteract 
+                        the stresses of modern life by becoming more mindful 
+                        and compassionate.
+                    </p>
+                    <div class="main-screen__container__text__button">
+                        <button class="main-screen__container__text__button_main" type="button">Get Started</button>
+                        <button class="main-screen__container__text__button_secondary" type="button">Learn More</button>
+                    </div>
                 </div>
             </div>
-            <div class="main_screen__image">
+            <div class="main-screen__image">
                 <img src="/assets/images/mainscreen_man.png" alt="yoga_man">
             </div>
         </section>
-    </main>
+        
+        <!-- Классы -->
+        <section class="classes">
+            <div class="classes__container">
+                <div class="classes__container__background_green"></div>
+                <div class="classes__container__cards">
+                    <article class="classes__container__cards__item">
+                        <div class="classes__container__cards__item__text">
+                            <div class="classes__container__cards__item__text__headline"><h5>Make Your Own Plan For Yoga.</h5></div>
+                            <div class="classes__container__cards__item__text__number"><h2>1</h2></div>
+                        </div>
+                        <div  class="classes__container__cards__item__photo">
+                            <img src="/assets/images/mainscreen_picture_one.png" alt="">
+                        </div>
+                    </article>
+                    <article class="classes__container__cards__item">
+                        <div class="classes__container__cards__item__text">
+                            <div class="classes__container__cards__item__text__headline"><h5>Find a Yoga Mentor For You.</h5></div>
+                            <div class="classes__container__cards__item__text__number"><h2>2</h2></div>
+                        </div>
+                        <div  class="classes__container__cards__item__photo">
+                            <img src="/assets/images/mainscreen_picture_two.png" alt="">
+                        </div>
+                        
+                    </article>
+                    <article class="classes__container__cards__item_red">
+                        <div class="classes__container__cards__item_red__text">
+                            <div class="classes__container__cards__item_red__text_heading">
+                                <div class="classes__container__cards__item_red__text__headline"><h5>Every-Day Open Master Classes.</h5></div>
+                                <div class="classes__container__cards__item_red__text__number"><h2>3</h2></div>
+                            </div>
+                            <div class="classes__container__cards__item_red__text__description">
+                                <p>We&#8242;re boosting online yoga by enabling anyone in the world to learn from the best</p>
+                            </div>
+                        <a href="#" class="classes__container__cards__item_red__link">read more</a>
+                        </div>
+                        <div class="classes__container__cards__item__photo_vertical"><img src="/assets/images/mainscreen_picture_three.png" alt=""></div>
+                    </article>
+                </div>
+            </div>
+            
+        </section>
 
-    <!-- Блок приемуществ -->
+        <!-- Блок приемуществ -->
     <section class="why-us">
         <div class="why-us__container">
-            <div class="why-is__container_info">
+            <div class="why-us__container_info">
                 <h2 class="why-us__container_headline">05+</h2>
                 <h6 class="why-us__container_headline_bold">Years of Experience</h6>
-                <p class="why-is__container_body">
+                <p class="why-us__container_body">
                     We are 05 years of experienced in this 
                     yoga field. Giving the best instructions.
                 </p>
             </div>
-            <div class="why-is__container_info">
+            <div class="why-us__container_info">
                 <h2 class="why-us__container_headline">5K+</h2>
                 <h6 class="why-us__container_headline_bold">Happy Clients</h6>
-                <p class="why-is__container_body">
+                <p class="why-us__container_body">
                     We have over five thousand clients all over the world. 
                     They are very satisfied.
                 </p>
             </div>
-            <div class="why-is__container_info_large">
+            <div class="why-us__container_info_large">
                 <h2 class="why-us__container_large_headline">Relaxe And Enjoy a Personalized Day Yoga With Us.</h2>
                 <h6 class="why-us__container_headline_large_signature">John Cena</h6>
-                <span class="why-is__container_large_name">
+                <span class="why-us__container_large_name">
                     John Cena
-                        <p class="why-is__container_large_founder">/Founder</p>
+                        <p class="why-us__container_large_founder">/Founder</p>
                 </span>
                 <div class="ellips_green_xs">
-                    <img src="/assets/images/Ellipses/ellipse_green_xs.png" role="presentation"
-                    aria-hidden="true"></div>
+                    </div>
             </div>
-            <div class="why-is__container_info">
+            <div class="why-us__container_info">
                 <h2 class="why-us__container_headline">15+</h2>
                 <h6 class="why-us__container_headline_bold">Experienced Trainer</h6>
-                <p class="why-is__container_body">
+                <p class="why-us__container_body">
                     We have over fifteen dedicated and 
                     experienced trainer for yoga and meditation.
                 </p>
             </div>
-            <div class="why-is__container_info">
+            <div class="why-us__container_info">
                 <h2 class="why-us__container_headline">24+</h2>
                 <h6 class="why-us__container_headline_bold">Monthly Classes</h6>
-                <p class="why-is__container_body">
+                <p class="why-us__container_body">
                     Yoga is a physical, 
                     mental and spritual practice discipline. We provide 24+ classes monthly.
                 </p>
@@ -121,23 +164,323 @@
         </div>
     </section>
 
+        <!-- Видео презентация -->
+        <section class="pesentation">
+            <div class="pesentation__container">
+                <div class="video__container">
+                    <div class="video__container__box">
+                        <video class="video" width="1170px" height="622px" poster="/assets/images/video_cover.png" controls>
+                            <source src="/assets/video/Yoga.mp4" type="video/mp4">
+                            <source src="/assets/video/Yoga.ogg" type="video/ogg">
+                            <source src="/assets/video/Yoga.webm" type="video/webm">
+                        </video>
+                    </div>
+                </div>
+                <div class="presentation__container__text">
+                    <div class="presentation__container__text__headline">
+                        <div class="presentation__container__text__decoration"></div>
+                        <h2>The Better Way to Start Yoga</h2>
+                    </div>
+                    <div class="presentation__container__text__body">
+                        <p class="presentation__container__text__body__description">Practice anywhere, anytime. Explore a new way to exercise and 
+                            learn more about yourself. We are providing the best.
+                        </p>
+                        <button class="presentation__container__text__button" type="button">Get started</button>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-
-    <!-- PopUp
-    <div id="popup" class="popup">
-        <div class="popup__body">
-            <div class="popup__content">
-                <a href="" class="popup__close"></a>
-                <form action="#" class="popup__login">
-                    <label>
-                        <input type="text" name="email" placeholder="Email address">
-                    </label>
-                    <label>
-                        <input type="text" name="password" placeholder="Password">
-                    </label>
+        <!-- Популярные курсы -->
+        <section class="courses">
+            <div class="courses__container">
+                <div class="courses__container__text">
+                    <h2>Popular Courses</h2>
+                    <p class="courses__container__text_body">Practice anywhere, anytime. Explore a new way to exercise and 
+                        learn more about yourself. We are providing the best.
+                    </p>
+                </div>
+                <div class="courses__container__cards">
+                    <article class="courses__container__cards__item">
+                        <div  class="courses__container__cards__item__photo">
+                            <img src="/assets/images/popular_courses_one.png" alt="">
+                        </div>
+                        <div class="courses__container__cards__item__text">
+                            <h6 class="">Resortive Yoga Training & Immersion</h6>
+                            <p class="courses__container__cards__item__text_body">Here is some tips for new job seekars who want to get a 
+                            dream job and want to shine in his career.
+                            </p>
+                            <div class="courses__container__cards__item__text__rating">
+                                <img src="/assets/images/elements/star.svg" alt="">
+                                <img src="/assets/images/elements/star.svg" alt="">
+                                <img src="/assets/images/elements/star.svg" alt="">
+                                <img src="/assets/images/elements/star.svg" alt="">
+                                <img src="/assets/images/elements/star_empty.svg" alt="">
+                                <div class="courses__container__cards__item__text__rating_number">
+                                    <p>(18)</p>
+                                </div>
+                                <a href="#" class="courses__container__cards__item__text__link">Get started</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="courses__container__cards__item">
+                        <div  class="courses__container__cards__item__photo">
+                            <img src="/assets/images/popular_courses_two.png" alt="">
+                        </div>
+                        <div class="courses__container__cards__item__text">
+                            <h6 class="">Resortive Yoga Training & Immersion</h6>
+                            <p class="courses__container__cards__item__text_body">Here is some tips for new job seekars who want to get a 
+                            dream job and want to shine in his career.
+                            </p>
+                            <div class="courses__container__cards__item__text__rating">
+                                <img src="/assets/images/elements/star.svg" alt="">
+                                <img src="/assets/images/elements/star.svg" alt="">
+                                <img src="/assets/images/elements/star.svg" alt="">
+                                <img src="/assets/images/elements/star.svg" alt="">
+                                <img src="/assets/images/elements/star_empty.svg" alt="">
+                                <div class="courses__container__cards__item__text__rating_number">
+                                    <p>(18)</p>
+                                </div>
+                                <a href="#" class="courses__container__cards__item__text__link">Get started</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="courses__container__cards__item">
+                        <div class="courses__container__cards__item__photo">
+                            <img src="/assets/images/popular_courses_three.png" alt="">
+                        </div>
+                        <div class="courses__container__cards__item__text">
+                            <h6 class="">Resortive Yoga Training & Immersion</h6>
+                            <p class="courses__container__cards__item__text_body">Here is some tips for new job seekars who want to get a 
+                            dream job and want to shine in his career.
+                            </p>
+                            <div class="courses__container__cards__item__text__rating">
+                                <img src="/assets/images/elements/star.svg" alt="">
+                                <img src="/assets/images/elements/star.svg" alt="">
+                                <img src="/assets/images/elements/star.svg" alt="">
+                                <img src="/assets/images/elements/star.svg" alt="">
+                                <img src="/assets/images/elements/star_empty.svg" alt="">
+                                <div class="courses__container__cards__item__text__rating_number">
+                                    <p>(18)</p>
+                                </div>
+                                <a href="#" class="courses__container__cards__item__text__link">Get started</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <button class="courses__container__button" type="button">Browse All</button>
+            </div>
+            
+        </section>
+        <!-- Цены -->
+        <section class="plans">
+            <div class="plans__container">
+                <div class="plans__container__text">
+                    <h2>Pick a Pricing Plan</h2>
+                    <p class="plans__container__text_body">Pick a pricing plan and get started your journey
+                        with us for build your body and mind
+                    </p>
+                </div>
+                <div class="plans__container__cards">
+                    <article class="plans__container__cards__item">
+                        <div class="plans__container__cards__item__name">
+                            <h5>Single yoga class</h5>
+                            <p class="plans__container__cards__item__name__price">$15</p>
+                        </div>
+                        <div class="plans__container__cards__item__pros">
+                            <p class="plans__cards__item__pros__description">Discover your favorite class!</p>
+                            <div class="plans__container__cards__item__pros__list">
+                                <img src="/assets/images/elements/icon.svg" alt="">
+                                <p>Pay as you go</p>
+                            </div>
+                            <div class="plans__container__cards__item__pros__list">
+                                <img src="/assets/images/elements/icon.svg" alt="">
+                                <p>Perfect for non-residence</p>
+                            </div>
+                            <div class="plans__container__cards__item__pros__list">
+                                <img src="/assets/images/elements/icon.svg" alt="">
+                                <p>Acces to all classes</p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="plans__container__cards__item__top">
+                        <div class="plans__container__cards__item__top__name">
+                            <p class="plans__container__cards__item__top__name__text">recommended</p>
+                            <h5>1 month membership</h5>
+                            <p class="plans__container__cards__item__top__name__price">$60</p>
+                        </div>
+                        <div class="plans__container__cards__item__top__pros">
+                            <p class="plans__cards__item__top__pros__description">Discover your favorite class!</p>
+                            <div class="plans__container__cards__item__top__pros__list">
+                                <img src="/assets/images/elements/icon.svg" alt="">
+                                <p>Pay as you go</p>
+                            </div>
+                            <div class="plans__container__cards__item__top__pros__list">
+                                <img src="/assets/images/elements/icon.svg" alt="">
+                                <p>Perfect for non-residence</p>
+                            </div>
+                            <div class="plans__container__cards__item__top__pros__list">
+                                <img src="/assets/images/elements/icon.svg" alt="">
+                                <p>Acces to all classes</p>
+                            </div>
+                            <div class="plans__container__cards__item__top__pros__list">
+                                <img src="/assets/images/elements/icon.svg" alt="">
+                                <p>Acces to all mentors</p>
+                            </div>
+                        </div>
+                        <button class="plans__container__cards__item__top__pros__btn" type="button">
+                            <p>Book now</p>
+                            <div class="plans__container__cards__item__top__pros__btn_icon"><img src="/assets/images/elements/arrow.svg" alt=""></div>
+                        </button>
+                    </article>
+                    <article class="plans__container__cards__item">
+                        <div class="plans__container__cards__item__name">
+                            <h5>3 month membership</h5>
+                            <p class="plans__container__cards__item__name__price">$150</p>
+                        </div>
+                        <div class="plans__container__cards__item__pros">
+                            <p class="plans__cards__item__pros__description">Discover your favorite class!</p>
+                            <div class="plans__container__cards__item__pros__list">
+                                <img src="/assets/images/elements/icon.svg" alt="">
+                                <p>Pay as you go</p>
+                            </div>
+                            <div class="plans__container__cards__item__pros__list">
+                                <img src="/assets/images/elements/icon.svg" alt="">
+                                <p>Perfect for non-residence</p>
+                            </div>
+                            <div class="plans__container__cards__item__pros__list">
+                                <img src="/assets/images/elements/icon.svg" alt="">
+                                <p>Acces to all classes</p>
+                            </div>
+                            <div class="plans__container__cards__item__pros__list">
+                                <img src="/assets/images/elements/icon.svg" alt="">
+                                <p>Acces to all mentors</p>
+                            </div>
+                        </div>
+                        <button class="plans__container__cards__item__pros__btn" type="button">
+                            <p>Book now</p>
+                            <div class="plans__container__cards__item__pros__btn_icon"><img src="/assets/images/elements/arrow.svg" alt=""></div>
+                        </button>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <!-- Слайдер -->
+        <section class="slider">
+            <div class="slider__title">
+                <h2 class="slider__title_text">
+                    What People Say About Us
+                </h2>
+            </div>
+            <div class="slider__container">
+                <div class="slider__container__item">
+                    <div class="slider__container_shadowed">
+                        <div class="slider__container_image"></div>
+                        <div class="slider__container_text">This is the great and best platform for yoga and meditation. I got a very good body at body now, my body shapes is fine now. I am very grateful to them. They are providing a great service.</div>
+                        <div class="slider__container_secondary">Trent Boult<span class="slider__container_about">Web Designer</span></div>
+                    </div>
+                </div>
+                <div class="slider__container__item">
+                    <div class="slider__container_shadowed">
+                        <div class="slider__container_image"></div>
+                        <div class="slider__container_text">This is the great and best platform for yoga and meditation. I got a very good body at body now, my body shapes is fine now. I am very grateful to them. They are providing a great service.</div>
+                        <div class="slider__container_secondary">Trent Boult<span class="slider__container_about">Web Designer</span></div>
+                    </div>
+                </div>
+                <div class="slider__container__item">
+                    <div class="slider__container_shadowed">
+                        <div class="slider__container_image"></div>
+                        <div class="slider__container_text">This is the great and best platform for yoga and meditation. I got a very good body at body now, my body shapes is fine now. I am very grateful to them. They are providing a great service.</div>
+                        <div class="slider__container_secondary">Trent Boult<span class="slider__container_about">Web Designer</span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Подписка -->
+        <section class="newsletter">
+            <div class="newsletter__container">
+                <div class="newsletter__container__frame">
+                    <div class="newsletter__container__frame__text">
+                        <h4>Subscribe Our Newsletter</h4>
+                        <div class="newsletter__container__frame__text_body">
+                            <p>Subscribe our newsletter for further updates about us</p>
+                        </div>
+                    </div>
+                    <div class="newsletter__container__frame__form">
+                        <label for="">
+                            <img src="/assets/images/logo/envelope.png" alt="" class="newsletter__container__frame__form__icon">
+                            <input type="email" placeholder="Enter your email address" class="newsletter__container__frame__form__input">
+                            <input type="submit" class="newsletter__container__frame__form__btn" value="Get started">
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Вопросы -->
+        <section class="ask">
+            <div class="ask__container">
+                <img src="/assets/images/shapes.png" alt="">
+                <div class="ask__container__text">
+                    <h2>Get in Touch With Us for Yoga Course.</h2>
+                    <div class="ask__container__text_body">
+                        <p>Get in touch with us for any kind of help. We are here to give 
+                            you the best and also here to help you to find your yoga course.
+                        </p>
+                    </div>
+                </div>
+                <form class="ask__container__form">
+                        <label>
+                            <input type="text" placeholder="First name" class="ask__container__form__input">
+                        </label>
+                        <label>
+                            <input type="text" placeholder="Last name" class="ask__container__form__input">
+                        </label>
+                        <label>
+                            <input type="email" placeholder="Email address" class="ask__container__form__input">
+                        </label>
+                        <label><textarea name="" id="" cols="30" rows="10" placeholder="Message" class="ask__container__form__input"  ></textarea></label>
+                        <div class="ask__container__form__check">
+                            <label>
+                            <input type="checkbox" name="" id="" class="ask__container__form__checkbox" required>
+                            <div><p class="ask__container__form__checkbox__text">by clicking here you agree to our <a href="#" class="ask__container__form__checkbox__link"> terms and policy.</a></p></div>
+                            </label>
+                        </div>
+                        <label><input type="submit" value="Send Message" class="ask__container__form__btn"></label>
                 </form>
             </div>
+        </section>
+    </main>
+<!-- Футер -->
+    <footer class="footer">
+        <div class="footer__info">
+            <div class="footer__info__logo">
+                <a href="index.html"><img src="/assets/images/logo/Logo.svg" alt="Yola logo"></a>
+            </div>
+            <div class="footer__info__copyright">
+                <p>© 2022 UI HUT. All rights reserved.</p>
+            </div>
+            <div class="footer__info__networks">
+                <a href="#"><img src="/assets/images/logo/facebook.svg" alt=""></a>
+                <a href="#"><img src="/assets/images/logo/insta.svg" alt=""></a>
+                <a href="#"><img src="/assets/images/logo/twitter.svg" alt=""></a>
+            </div>
         </div>
-    </div>-->
+    </footer>
+    </main>
+
+
+
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="/assets/slick/slick.min.js"></script>
+    <script type="text/javascript" src="/assets/js/main.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+        $('.your-class').slick({
+          setting-name: setting-value
+        });
+      });
+    </script>
 </body>
 </html>
